@@ -1,0 +1,57 @@
+/* #a41dea= purple  #c1ea1d=lime #1dea87=pistachio #ea7e1d=orange */
+h1, h2, h4 {
+	text-shadow: 2px 2px 2px #111;
+	font-family: 'Racing Sans One', cursive;
+	color: red;
+	position: relative;
+	margin-left: 250px;
+	border: 1px solid blue;
+}
+
+nav div#navigation ul li{
+	margin:20px 0 0 0 ;
+	float:left;
+}
+
+		nav div#navigation ul li a{
+			background: #eee;
+			border:1px solid black;
+			padding: 5px;
+		}
+#repeatedtrophies {
+		border: 1px solid black;
+		padding: 20px;
+		background-image: url(images/background-image.jpg);
+}
+section, p {
+	width:1000px;
+	background:red;
+	opacity:.9;
+}
+nav div#navigation ul li a:link{
+			color:#a41dea;
+		}
+	a:visited{
+			color:#1dea87;
+		}
+	a:hover{
+			color:#c1ea1d;
+		}
+	a:active{
+		color:#ea7e1d;
+		}
+#gallery ul li{
+			display:inline;
+			float:left;
+			}
+ul {
+		list-style-type:circle;
+		}
+#feet {
+			border: 1px solid black;
+			width: 300px;
+			height: 168px;
+			}
+#main{   
+		width: 80%;
+		}
