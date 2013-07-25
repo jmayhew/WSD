@@ -49,6 +49,10 @@ nav div#navigation ul li a:link{
 		color:#ea7e1d;
 		}
 #gallery ul li{
+			border: 1px solid black;
+			width: 21.4286%;/*300px/1400px*/
+			height: 168px;
+			padding: 10px;
 			float:right;
 			}
 ul #perks {
@@ -63,6 +67,12 @@ ul #perks {
 #feet img{
 					max-width:100%;
 					}
+#teams img{ 
+			border: 1px solid black;
+			width: 21.4286%;/*300px/1400px*/
+			height: 168px;
+			padding: 10px;
+			}
 #main{   
 		width: 960px;
 		margin: 0 auto;
