@@ -27,7 +27,7 @@ nav div#navigation ul li{
 #repeatedtrophies {
 		border: 1px solid black;
 		padding: 20px;
-		background-image: url(WSD/css/images/background-image.jpg);
+		background-image: url(../images/background-image.jpg);
 }
 section, p {
 	margin-left:28.57%;
