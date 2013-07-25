@@ -56,10 +56,13 @@ ul #perks {
 		}
 #feet {
 			border: 1px solid black;
-			width: 300px;
+			width: 21.4286%;/*300px/1400px*/
 			height: 168px;
 			margin-left: 28.57%;
 			}
+#feet img{
+					max-width:100%;
+					}
 #main{   
 		width: 960px;
 		margin: 0 auto;
