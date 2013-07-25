@@ -74,7 +74,7 @@ ul #perks {
 			padding: 10px;
 			}
 #main{   
-		width: 960px;
+		width: 68.5714%;
 		margin: 0 auto;
 		}
 /* Media Queries*/
@@ -100,6 +100,7 @@ ul #perks {
 		border: 1px solid black;
 		}
 	#column3 {
+		width:57.1429%
 		-moz-column-count:1;
 		border: 1px solid black;
 		}
