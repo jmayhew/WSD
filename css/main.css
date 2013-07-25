@@ -8,14 +8,14 @@ h1, h2, h4 {
 	font-family: 'Racing Sans One', cursive;
 	color: red;
 	position: relative;
-	margin-left: 250px;
+	margin-left: 19.23%;
 	border: 1px solid blue;
 }
 
 nav div#navigation ul li{
-	list-style-type: none;
+	list-style-type:none;
 	margin:20px 0 0 0 ;
-	float:left;
+	float:right;
 }
 
 		nav div#navigation ul li a{
@@ -30,12 +30,13 @@ nav div#navigation ul li{
 		background-image: url(WSD/css/images/background-image.jpg);
 }
 section, p {
-	margin-left:400px;
+	margin-left:28.57%;
 	width:1400px;
 	background:red;
 	opacity:.9;
 }
 nav div#navigation ul li a:link{
+		float:right;
 			color:#a41dea;
 		}
 	a:visited{
@@ -50,14 +51,14 @@ nav div#navigation ul li a:link{
 #gallery ul li{
 			float:right;
 			}
-ul {
+ul #perks {
 		list-style-type:circle;
 		}
 #feet {
 			border: 1px solid black;
 			width: 300px;
 			height: 168px;
-			margin-left: 400px;
+			margin-left: 28.57%;
 			}
 #main{   
 		width: 960px;
@@ -90,7 +91,7 @@ ul {
 		border: 1px solid black;
 		}
 #perks{
-		margin-left: 400px;
+		margin-left: 28.57%;
 		}
 		
 		
