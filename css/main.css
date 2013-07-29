@@ -11,33 +11,11 @@ h1, h2, h4 {
 	margin-left: 19.23%;
 	border: 1px solid blue;
 }
-
+/*navigation*/
 nav div#navigation ul li{
 	list-style-type:none;
 	margin:20px 0 0 0 ;
 	float:right;
-}
-
-		nav div#navigation ul li a{
-			list-style-type:none;
-			background: #eee;
-			border:1px solid black;
-			padding: 5px;
-		}
-#repeatedtrophies {
-		border: 1px solid black;
-		padding: 20px;
-		background-image: url(../images/background-image.jpg);
-}
-#button {
-		background-image: url(../images/button.jpg);
-		background-repeat:no-repeat;
-		}
- p{
-	margin-left:28.57%;
-	width:100%;/*1400*/
-	background:red;
-	background-color:rgba(255, 0, 0 , 0.5);
 }
 nav div#navigation ul li a:link{
 		float:right;
@@ -52,6 +30,42 @@ nav div#navigation ul li a:link{
 	a:active{
 		color:#ea7e1d;
 		}
+
+		nav div#navigation ul li a{
+			list-style-type:none;
+			background: #eee;
+			border:1px solid black;
+			padding: 5px;
+		}
+/*paragraphs*/
+#main{   
+		width: 68.5714%;
+		margin: 0 auto;
+		}		
+p{
+	margin-left:28.57%;
+	width:100%;/*1400*/
+	background:red;
+	background-color:rgba(255, 0, 0 , 0.5);
+}
+#repeatedtrophies {
+		border: 1px solid black;
+		padding: 20px;
+		background-image: url(../images/background-image.jpg);
+}
+#button {
+		background-image: url(../images/button.jpg);
+		background-repeat:no-repeat;
+		}
+ 
+
+/*gallery pics*/		
+#teams img{ 
+			border: 1px solid black;
+			width: 21.4286%;/*300px/1400px*/
+			height: 168px;
+			padding: 10px;
+			}
 #gallery ul li{
 			border: 1px solid black;
 			width: 15%;/*300px/1400px=21.4286%*/
@@ -59,9 +73,11 @@ nav div#navigation ul li a:link{
 			padding: 10px;
 			float:right;
 			}
+/*perks*/			
 ul #perks {
 		list-style-type:circle;
 		}
+/*top image*/		
 #feet {
 			border: 1px solid black;
 			width: 21.4286%;/*300px/1400px*/
@@ -71,16 +87,9 @@ ul #perks {
 #feet img{
 					max-width:100%;
 					}
-#teams img{ 
-			border: 1px solid black;
-			width: 21.4286%;/*300px/1400px*/
-			height: 168px;
-			padding: 10px;
-			}
-#main{   
-		width: 68.5714%;
-		margin: 0 auto;
-		}
+
+
+
 /* Media Queries*/
 /* Tablet Portrait size to standard 960 for browsers and devices*/
 @media screen and (min-width: 768px;) and (max-width: 1400px){
