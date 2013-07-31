@@ -122,7 +122,7 @@ ul #perks {
 /* Mobile portrait size to mobile landscape size(devices and browsers*/
  
 @media only screen and (max-width: 1400px;){
-	}
+	
 	#column1 {
 		-moz-column-count:3;
 		border: 1px solid black;
@@ -149,4 +149,4 @@ ul #perks {
 		margin-left: 28.57%;
 		}
 		
-		
+		}
