@@ -12,7 +12,7 @@ h1, h2, h4, footer {
 	font-size:1.5em;
 }
 body{
- 	font:100%;/1.5 "Times New Roman", Arial, Helvetica;
+ 	font:100%, "Times New Roman", Arial, Helvetica;
  	}
 /*navigation*/
 nav div#navigation ul li{
@@ -37,7 +37,6 @@ nav div#navigation ul li a:link{
 		nav div#navigation ul li a{
 			list-style-type:none;
 			background: #eee;
-			border:.000714% solid black;
 			padding: .003571%;/*5px*/
 		}
 /*paragraphs*/
