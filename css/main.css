@@ -3,13 +3,12 @@
 background-colors 
 #f89535=orange  
 #f89535=yellow*/
-h1, h2, h4 {
+h1, h2, h4, footer {
 	text-shadow: 2px 2px 2px #111;
 	font-family: 'Racing Sans One', cursive;
 	color: red;
 	position: relative;
 	margin-left: 19.23%;
-	border: 1px solid blue;
 	font-size:1.5em;
 }
 body{
