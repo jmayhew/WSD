@@ -109,17 +109,13 @@ ul #perks {
 
 /* Media Queries*/
 /* Tablet Portrait size to standard 960 for browsers and devices*/
-@media screen and (min-width: 768px;) and (max-width: 1400px){
-	#main { background-color: #edf835;}
-		}
+@media screen and (min-width: 
 /* Mobile landscape size to tablet portrait(devices and browsers)*/
-@media only screen and (min-width: 480px;) and (max-width: 1400px){
-			#main { background-color: #f89535;}
-		}
-		}
+ 
+		
 /* Mobile portrait size to mobile landscape size(devices and browsers*/
  
-@media only screen and (max-width: 1400px;){
+@media only screen and (max-width: ;){
 	
 	#column1 {
 		-moz-column-count:3;
