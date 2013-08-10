@@ -1,28 +1,51 @@
-#menu {
-	
-		
+/*navigation*/
+#menu 	{
 	float:right;
-		
-	}
-h1, h2, h3, h4, footer{
-			font-family: 'Happy Monkey', cursive;
-			text-shadow: 2px 2px 2px #111;
-			}
-body{
-		background-image: url(../images/lightbulbs.jpg);
 		}
-#preview {
-background:red;
-width:300px;
-height:300px;
-
-}
+#menu ul li a:link		{
+				color:#f2fb09;/*yellow*/
+						}
+				a:visited{
+				color:#ef0a0a;/*red*/
+						}
+				a:hover{
+				color:#fb7509;/*orange*/
+					}
+				a:active{
+				color:#3109fb;/*blue*/
+					}
+h1, h2, h3, h4, footer			{
+		font-family: 'Happy Monkey', cursive;
+		text-shadow: 2px 2px 2px #111;
+								}
+body				{
+			background-image: url(../images/lightbulbs.jpg);
+			width:1300px;
+			height:1300px;
+			margin-left:auto;
+			margin-right:auto;
+					}
+/*Flash Game Preview*/
+#preview 				{
+					background:red;
+					width:300px;
+					height:300px;
+						}
+/*Parental Review*/
 #review {
-background-color:rgba(255, 0, 0 , 0.5);
-width:995px;
-height:197px;
+	background-color:rgba(255, 0, 0 , 0.5);
+	width:995px;
+	height:197px;
+		}
+
+ul			{
+		list-style-type:circle;
+			}
+/*gallery*/		
+#professor, #secondgame, #icons{
+		float:left;
 }
-h1{
-width:100px;
+.class{
+-moz-column-count:3;
 }
 
