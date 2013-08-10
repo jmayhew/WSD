@@ -35,8 +35,8 @@ body				{
 #review {
 	background-color:rgba(255, 0, 0 , 0.5);
 	width:995px;
-	height:197px;
-		}
+	height:230px;
+	}
 
 ul			{
 		list-style-type:circle;
@@ -45,7 +45,18 @@ ul			{
 #professor, #secondgame, #icons{
 		float:left;
 }
-.class{
--moz-column-count:3;
+#comment{
+width:280px;
+-moz-column-count:1;
+}
+#intro{
+width:280px;
+-moz-column-count:2;
+margin-top:50px;
+
+}
+#conclusion{
+width:280px;
+-moz-column-count:1;
 }
 
