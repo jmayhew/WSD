@@ -1,7 +1,18 @@
 /*navigation*/
 #menu 	{
 	float:right;
+	border:3px solid grey;
+	border-radius:10px;
+	background-image: url(../images/btn.jpg);
+	width:40px;
+	height:25px;
+	list-style-type:none;
+	background-repeat:repeat-x;
 		}
+		#navigation{
+		margin-left:auto;
+		 margin-right:auto;
+		 }
 #menu ul li a:link		{
 				color:#f2fb09;/*yellow*/
 						}
@@ -17,46 +28,68 @@
 h1, h2, h3, h4, footer			{
 		font-family: 'Happy Monkey', cursive;
 		text-shadow: 2px 2px 2px #111;
+		width:300px;
+		margin-left:auto;
+		 margin-right:auto;
 								}
 body				{
 			background-image: url(../images/lightbulbs.jpg);
-			width:1300px;
+			width:1000px;
 			height:1300px;
-			margin-left:auto;
-			margin-right:auto;
-					}
+			}
 /*Flash Game Preview*/
 #preview 				{
 					background:red;
-					width:300px;
+					width:370px;
 					height:300px;
+					margin-left:auto;
+		 			margin-right:auto;
 						}
 /*Parental Review*/
 #review {
 	background-color:rgba(255, 0, 0 , 0.5);
-	width:995px;
-	height:230px;
+	width:280px;
+	height:234px;
+	margin-left:auto;
+	margin-right:auto;
+	border:3px solid black;
 	}
 
 ul			{
 		list-style-type:circle;
 			}
-/*gallery*/		
+/*gallery*/	
+#gallery, li{
+			padding:7px;
+			margin-left:auto;
+			margin-right:auto;
+			}	
 #professor, #secondgame, #icons{
 		float:left;
-}
+				}
 #comment{
-width:280px;
--moz-column-count:1;
-}
-#intro{
-width:280px;
--moz-column-count:2;
-margin-top:50px;
-
-}
+	width:280px;
+	-moz-column-count:1;
+		}
+	#intro{
+		background-color:rgba(255, 0, 0 , 0.5);
+		width:280px;
+		height:234px;
+		-moz-column-count:2;
+		 margin-left:auto;
+		 margin-right:auto;
+		 border:3px solid black;
+		}
 #conclusion{
 width:280px;
 -moz-column-count:1;
+margin-left:auto;
+margin-right:auto;
 }
+#game{
+		width:200px;
+		height:150px;
+		margin-left:auto;
+		 margin-right:auto;
+	}
 
