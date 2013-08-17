@@ -54,7 +54,7 @@ body				{
 /*Flash Game Preview*/
 #preview 				{
 					background:red;
-					width:2.95%;/*295px*/
+					width:29.5%;/*295px*/
 					height:2.30769%;/*300px*/
 					margin-left:30%;
 		 			margin-right:30%;
@@ -64,7 +64,7 @@ body				{
 #review {
 	background-color:rgba(255, 0, 0 , 0.5);
 	width:28%;/*280px*/
-	height:18%;/*234px*/
+	height:1.8%;/*234px*/
 	margin-left:30%;
 	margin-right:30%;
 	border:3px solid black;
@@ -94,6 +94,20 @@ ul			{
 
 #gears, #icons, #secondgame, #professor{
 padding:1.8%;/*18px*/
+border:3px solid black;
+width:20%;/*1000/200*/
+}
+#gears img{
+max-width:100%;
+}
+#icons img{
+max-width:100%;
+}
+#secondgame img{
+max-width:100%;
+}
+#professor img{
+max-width:100%;
 }
 #comment{
 	width:28%;/*280px/280*/
@@ -119,18 +133,25 @@ margin-left:30%;
 margin-right:30%;
 }
 #game{
-		width:20%;/*200px*/
+		
+		width:70%;/*200px*/
 		height:11.5385%;/*150px*/
-		margin-left:30%;/*30px/200*//*was 3%*/
+		margin-left:8%;/*30px/200*//*was 3%*/
 		 margin-right:30%;/*10px/200*//*was.05%*/
-	}
+		 }
+#game{
+border:3px solid black;
+}
+#game img{
+max-width:100%;
+}	
 /*Media queries*/
-@media screen and (min-width: 760px) and (max-width:1300){
-			#wrapper{background-color:#509cff;}
+@media screen and (min-width: 760px) and (max-width:1000){
+			#conclusion{background-color:#509cff;}
 			}
 @media only screen and (min-width:480px) and (max-width:759px){
-			#wrapper{background-color:#509cff;}
+			#conclusion{background-color:#509cff;}
 			}
 @media only screen and (max-width:479px){
-			#wrapper{ background-color:#509cff;}
+			#conclusion{ background-color:#509cff;}
 			}
