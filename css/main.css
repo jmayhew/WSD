@@ -14,6 +14,7 @@
 		 margin-right:auto;
 		 }
 #menu ul li a:link		{
+				max-width:100%
 				color:#f2fb09;/*yellow*/
 						}
 				a:visited{
@@ -43,6 +44,9 @@ border-radius:10px;
 width:14%;/*140px*/
 margin-left:3%;/*30px*/
 }
+h1{
+max-width:100%
+}
 h2{
 margin-top:3.8462%;/*50px*/
 }
@@ -50,6 +54,11 @@ body				{
 			background-image: url(../images/lightbulbs.jpg);
 			width:100%;/*1000px*/
 			height:100%;/*1300px*/
+			font:100%/1.5 "Times New Roman", Arial, Helvetica;
+			}
+			h1{
+			
+			font-size:1.5em;
 			}
 /*Flash Game Preview*/
 #preview 				{
@@ -64,7 +73,7 @@ body				{
 #review {
 	background-color:rgba(255, 0, 0 , 0.5);
 	width:28%;/*280px*/
-	height:1.8%;/*234px*/
+	height:5.55555555555556%;/*234px*/
 	margin-left:30%;
 	margin-right:30%;
 	border:3px solid black;
@@ -77,7 +86,7 @@ ul			{
 /*gallery*/	
 #gallery{
 			background-color:rgba(255, 0, 0 , 0.5);
-			border:3px solid black;
+			border:2px solid black;
 			border-radius:10px;
 			padding:1.3%;/*13px*/
 			
@@ -94,7 +103,7 @@ ul			{
 
 #gears, #icons, #secondgame, #professor{
 padding:1.8%;/*18px*/
-border:3px solid black;
+border:2px solid black;
 width:20%;/*1000/200*/
 }
 #gears img{
@@ -110,7 +119,7 @@ max-width:100%;
 max-width:100%;
 }
 #comment{
-	width:28%;/*280px/280*/
+	max-width:70%;/*280px*/
 	-moz-column-count:1;
 		}
 	#intro{
@@ -122,7 +131,10 @@ max-width:100%;
 		 margin-right:30%;
 		 border:3px solid black;
 		 border-radius:10px;
-		}
+		 }
+		 #intro{
+		 max-width:100%
+		 } 
 #conclusion{
 border:3px solid black;
 border-radius:10px;
@@ -136,11 +148,11 @@ margin-right:30%;
 		
 		width:70%;/*200px*/
 		height:11.5385%;/*150px*/
-		margin-left:8%;/*30px/200*//*was 3%*/
+		margin-left:13%;/*30px/200*//*was 3%*/
 		 margin-right:30%;/*10px/200*//*was.05%*/
 		 }
 #game{
-border:3px solid black;
+border:2px solid black;
 }
 #game img{
 max-width:100%;
@@ -155,3 +167,9 @@ max-width:100%;
 @media only screen and (max-width:479px){
 			#conclusion{ background-color:#509cff;}
 			}
+article{
+height:10%;
+}
+p{
+font-size:.8125em;
+}
