@@ -1,7 +1,7 @@
 /*navigation*/
 #menu 	{
 	float:right;
-	border:3px solid black;/*3px*/
+	border:2px solid black;/*3px*/
 	border-radius:10px;
 	background-image: url(../images/btn.jpg);
 	width:4%;/*40px*/
@@ -43,23 +43,23 @@ border:2px solid black;
 border-radius:10px;
 width:14%;/*140px*/
 margin-left:3%;/*30px*/
-}
-h1{
-max-width:100%
-}
+  }
+	h1{
+	max-width:100%
+  	  }
 h2{
 margin-top:3.8462%;/*50px*/
-}
+   }
 body				{
 			background-image: url(../images/lightbulbs.jpg);
 			width:100%;/*1000px*/
 			height:100%;/*1300px*/
 			font:100%/1.5 "Times New Roman", Arial, Helvetica;
-			}
+					}
 			h1{
 			
 			font-size:1.5em;
-			}
+			  }
 /*Flash Game Preview*/
 #preview 				{
 					background:red;
@@ -93,6 +93,7 @@ ul			{
 			}
 
 #gallery, li{
+
 			list-style:none;
 			margin-left:auto;
 			margin-right:auto;
@@ -133,7 +134,7 @@ max-width:100%;
 		background-color:rgba(255, 0, 0 , 0.5);
 		width:28%;/*280px*/
 		height:18%;/*234px*/
-		-moz-column-count:2;
+		-moz-column-count:3;
 		 margin-left:30%;/*357px*/
 		 margin-right:30%;
 		 border:3px solid black;
@@ -197,20 +198,31 @@ max-width:100%;
 @media only screen and (max-width:479px){
 			#conclusion{
 			background-color:#509cff;
-			}
+						}
 			#gallery{
 			background-color:#509cff;
-			}
+					}
 			#preview{
 			background-color:#dc4747;
-			}
+						}
 			body {
 			background-image:none;
-			}
+				}
 			}
 article{
 height:10%;
 }
 p{
 font-size:.8125em;
+}
+#highscores{
+border:3px solid black;
+border-radius:10px;
+background-color:rgba(255, 0, 0 , 0.5);
+width:28%;
+margin-left:30%;/*320px*/
+max-width:100%;
+}
+#attraction{
+margin-right:38%;/*320px*/
 }
